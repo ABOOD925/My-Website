@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Car World</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #8e9aaf; /* Soft Gray-Blue */
+            margin: 0;
+            padding: 0;
+            color: #f0f4f7; /* Light Gray */
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff; /* White */
+            font-size: 50px;
+            padding: 20px;
+            background: linear-gradient(135deg, #607d8b, #78909c); /* Medium Gray-Blue */
+            border-bottom: 5px solid #8c9eff; /* Light Blue */
+        }
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(135deg, #aab7b8, #b0bec5); /* Soft Light Gray */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .navbar li {
+            float: left;
+        }
+        .navbar li a {
+            display: block;
+            color: #ffffff; /* White */
+            padding: 16px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .navbar li a:hover {
+            background-color: #8c9eff; /* Light Blue */
+            border-radius: 4px;
+        }
+        section {
+            margin: 30px;
+            padding: 30px;
+            background: linear-gradient(135deg, #d6e1e9, #c5cfd6); /* Soft Light Gray */
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        section h3 {
+            color: #607d8b; /* Medium Gray-Blue */
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #3e4a59; /* Darker Gray */
+        }
+        section a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 16px;
+            background-color: #78909c; /* Medium Gray-Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        section a:hover {
+            background-color: #8c9eff; /* Light Blue */
+        }
+        .home-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #607d8b; /* Medium Gray-Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .home-btn:hover {
+            background-color: #8c9eff; /* Light Blue */
+        }
+        img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+        <section id="home">
+    <h1>Welcome to Car World</h1>
+    <p><b><p style="text-align: center">Explore the amazing world of cars! Click on the menu below to learn more about the world of cars.</p></b></p>
+                    </section>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#history">Car History</a></li>
+            <li><a href="#types">Car Types</a></li>
+            <li><a href="#parts">Car Parts</a></li>
+            <li><a href="#safety">Car Safety</a></li>
+            <li><a href="#environment">Fuel & Environment</a></li>
+            <li><a href="#trends">Modern Trends</a></li>
+            <li><a href="#companies">Car Companies</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+
+
+
+    <!-- Car History Section -->
+    <section id="history">
+        <h3>Car History</h3>
+        <p>The history of cars is rich and fascinating, stretching back over a century of innovation. In 1885, Karl Benz's invention of the first gasoline-powered vehicle revolutionized transportation and changed the world forever. Following this breakthrough, many inventors and companies contributed to the development of automobiles. Henry Ford's introduction of the assembly line in 1913 made mass production of cars possible, drastically reducing prices and making cars affordable for the masses. Over the years, cars have evolved with technological advances, from the first electric cars to modern-day electric vehicles (EVs) that are set to change the future of transportation once again.</p>
+        <a href="https://images.app.goo.gl/DswueXHVhSupomCz8">
+            <img src="Car History.jpeg" width="273" height="184" alt="Car History Photo">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Car Types Section -->
+    <section id="types">
+        <h3>Car Types</h3>
+        <p>Cars come in a variety of shapes and sizes, each tailored to different needs and preferences. Sedans, for example, are practical vehicles designed for everyday use, providing comfort and fuel efficiency. Sports cars, on the other hand, are built for speed, agility, and performance, often featuring sleek designs and powerful engines. SUVs and crossovers have become increasingly popular due to their spacious interiors and off-road capabilities, making them ideal for families or outdoor enthusiasts. Electric vehicles (EVs) have also emerged as an eco-friendly option, offering zero-emission driving with a focus on sustainability. Whether you’re looking for a family car, a performance vehicle, or an environmentally conscious choice, there's a car type for everyone.</p>
+        <a href="https://images.app.goo.gl/z7iDKdjd3KcpAAuG9">
+            <img src="Car Types.jpg" width="280" height="186" alt="Car Types Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Car Parts Section -->
+    <section id="parts">
+        <h3>Car Parts</h3>
+        <p>A car is made up of many complex and interconnected parts, each playing a vital role in its operation. The engine, often referred to as the heart of the vehicle, provides the power needed to move the car. The transmission works alongside the engine to deliver power to the wheels, while the suspension system ensures a smooth ride by absorbing shocks from the road. Other important components include the braking system, which helps stop the car safely, and the electrical system, which powers various features like lights, air conditioning, and entertainment systems. Understanding the function of each part can help you appreciate the technology and engineering behind modern automobiles.</p>
+        <a href="https://images.app.goo.gl/wEZD95fMygJyC9Hp9">
+            <img src="Car Parts.jpg" width="279" height="300" alt="Car Parts Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Car Safety Section -->
+    <section id="safety">
+        <h3>Car Safety</h3>
+        <p>Car safety is a critical aspect of modern vehicle design. Over the years, the automotive industry has introduced various safety features to protect drivers and passengers. Airbags are one of the most well-known safety innovations, designed to inflate in the event of a collision and cushion the impact. Anti-lock braking systems (ABS) help prevent the wheels from locking up during hard braking, allowing the driver to maintain control. Modern vehicles are also equipped with advanced features such as lane departure warning, automatic emergency braking, and blind-spot detection, all of which help prevent accidents and protect everyone on the road.</p>
+        <a href="https://images.app.goo.gl/bD8gRVKXxtW6B6Lq6">
+            <img src="CAR Safety.jpeg" width="313" height="161" alt="Car Safety Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Fuel & Environment Section -->
+    <section id="environment">
+        <h3>Fuel & Environment</h3>
+        <p>Fuel has been a crucial aspect of the automotive world for over a century, with gasoline and diesel being the traditional sources of power for most cars. However, the environmental impact of fossil fuels, including air pollution and greenhouse gas emissions, has prompted a shift towards more sustainable alternatives. Electric vehicles (EVs), powered by batteries instead of internal combustion engines, have emerged as a cleaner option that produces zero emissions. Hybrid vehicles, which combine an internal combustion engine with an electric motor, offer a balance of fuel efficiency and reduced environmental impact. The future of automotive fuel is leaning towards clean energy solutions, with ongoing innovations in battery technology and renewable energy sources.</p>
+        <a href="https://images.app.goo.gl/N256iYsnqgfwAjPi7">
+            <img src="Fuel & Environment.jpeg" width="256" height="197" alt="Fuel and Environment Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Modern Trends Section -->
+    <section id="trends">
+        <h3>Modern Trends</h3>
+        <p>The automotive industry is undergoing rapid transformation, driven by advances in technology. Self-driving cars are one of the most exciting developments, with autonomous vehicles expected to revolutionize transportation in the coming years. These cars use a combination of sensors, cameras, and AI algorithms to navigate the road without human intervention. Electric vehicles (EVs) are also at the forefront of this shift, as governments and companies around the world push for greener transportation options. Additionally, smart features such as voice control, advanced navigation, and AI-powered systems are making vehicles smarter and more connected than ever before.</p>
+        <a href="https://images.app.goo.gl/ovk2oVZ4oeyEMNJS8">
+            <img src="Modern Trends.png" width="300" height="313" alt="Self Driving Car Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+    <!-- Car Companies Section -->
+    <section id="companies">
+        <h3>Car Companies</h3>
+        <p>There are numerous car manufacturers worldwide, each with its unique offerings and innovations. Some of the biggest names in the industry include Toyota, which is known for its reliable and fuel-efficient vehicles, and Tesla, a leader in electric vehicle technology. Other notable companies such as Ford, BMW, and Audi are constantly pushing the boundaries of design and performance, offering everything from luxurious sedans to high-performance sports cars. The automotive industry is incredibly competitive, with companies continually working to improve vehicle safety, fuel efficiency, and technology. As the industry evolves, these manufacturers play a critical role in shaping the future of transportation.</p>
+        <a href="https://images.app.goo.gl/LtMZQtvoHtCGsDqs8">
+            <img src="Car Companies.png" width="330" height="313" alt="Car Companies Image">
+        </a>
+        <a href="#home" class="home-btn">Back to Home</a>
+    </section>
+
+      <!-- Copyright section -->
+        <footer>
+                <p>&copy; All rights reserved by <strong>Abdulrahman Al-Abdeli</strong> until death.</p>
+        </footer>
+      
+</body>
+</html>
